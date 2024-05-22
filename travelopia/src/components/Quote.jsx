@@ -154,7 +154,7 @@ const Quotes = () => {
                 onChange={(e) => setDuration(e.target.value)}
                 placeholder="duration"
                 style={{
-                  width: "30%",
+                  width: "29%",
                   marginRight: "10px",
                   padding: "5px",
                   borderRadius: "10px",
@@ -164,7 +164,7 @@ const Quotes = () => {
                 type="text"
                 onChange={(e) => setWhen(e.target.value)}
                 placeholder="when?"
-                style={{ width: "30%", padding: "5px", borderRadius: "10px" }}
+                style={{ width: "29%", padding: "5px", borderRadius: "10px" }}
               />
 
               <select

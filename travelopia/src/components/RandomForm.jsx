@@ -50,8 +50,8 @@ function RandomForm({ state }) {
                   required
                   type="number"
                   placeholder="Enter you phone number"
-                  id="ph"
-                  name="ph"
+                  id="number"
+                  name="number"
                 />
               </div>
               <div className={Styles.formGroup}>
