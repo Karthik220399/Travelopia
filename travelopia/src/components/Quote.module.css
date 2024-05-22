@@ -1,0 +1,23 @@
+.quotesForm {
+    margin: 10px;
+    background-color: rgb(138, 64, 64);
+    color: white;
+    width: 400px;
+    text-align: center;
+    height: 80%;
+    border-radius: 20px ;
+    padding: 10px;
+  }
+  
+  /* select {
+    border-radius: 10px;
+    width: 60%;
+  } */
+  
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    grid-auto-flow: coloumn;
+  }
+  
