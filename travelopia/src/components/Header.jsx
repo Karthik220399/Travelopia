@@ -1,5 +1,6 @@
 import Styles from "./Header.module.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header({}) {
   const loggedIn = localStorage.getItem("loggedIn");
@@ -7,10 +8,12 @@ function Header({}) {
 
   return (
     <header className={Styles.parentDiv}>
-      <div className={Styles.title} >
-        <div className={Styles.smallTitle}>Travel with</div>
-        <div className={Styles.mainTitle}>Travelopia</div>
-      </div>
+         <Link style={{textDecoration:"none", color:"black"}} to="/">
+            <div className={Styles.title} >
+            <div className={Styles.smallTitle}>Travel with</div>
+            <div className={Styles.mainTitle}>Travelopia</div>
+            </div>
+        </Link>
       <div className={Styles.middleHeader}>
         <div className={Styles.qoute}>
           Private tailor-made journeys of a lifetime
